@@ -49,6 +49,20 @@ p{
   padding-right: 200px;
 }
 
+table{
+  border: none;
+  padding-top: -100px;
+  padding-right: 30px;
+  padding-bottom: -100px;
+  padding-left: 30px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+}
+
+.form{
+  width: 960px;
+}
+
 .content {
     min-height: calc(100vh - 70px);
     width: 960px;
