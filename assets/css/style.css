@@ -15,7 +15,15 @@ p {
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
-.name,
+.name {
+  float: left;
+  height: 115px;
+  font-size: 25px;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  background-color: #4aaaa5;
+  color: #ffffff;
+}
+
 .navbar-brand {
   float: left;
   height: 115px;
