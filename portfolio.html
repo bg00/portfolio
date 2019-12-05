@@ -3,28 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"/>  
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Portfolio</title>
 </head>
 
-<nav class="navbar fixed-top navbar-expand-lg">
+<nav class="navbar fixed-top navbar-expand-xs">
     <div class="container">
-    <div class="name">
-      <h1>Bailey Garrett</h1>
-    </div> 
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="name">
+            <h1>Bailey Garrett</h1>
+          </div>
+       </div>
+    </div>
 
+
+    <div class="row">
+        <div class="col-xs-6">
   <div class="links">
     <p>
       <a href="index.html">About  | </a> 
       <a href="portfolio.html">Portfolio  | </a>
       <a href="contact.html">Contact</a>
     </p>
+    </div>
   </div>
 </div>
+</div>
 </nav>
-  
-  <hr>
+
+<hr>
+
 
 <body background="assets/images/ripples.png">
 
@@ -34,8 +45,16 @@
         <div class="portimg">
           <table>
             <tr>
-              <td><img src="assets/images/StockSnap_FTFTNXN41H.jpg" width="250px" height="250px"></img>
-              <div class= "project1">Project 1</div>
+              <td><img src="assets/images/Screen Shot 2019-12-04 at 6.39.15 PM.png" width="250px" height="250px" id="project1img"></img>
+              <div class= "project1" id="project1">ISS Tracker</div>
+              <script type="text/javascript">
+    document.getElementById("project1").onclick = function () {
+        location.href = "https://bg00.github.io/ISS-Tracker/";
+    };
+        document.getElementById("project1img").onclick = function () {
+        location.href = "https://bg00.github.io/ISS-Tracker/";
+    };
+</script>
               </td>
               <td><img src="assets/images/StockSnap_FTFTNXN41H.jpg" width="250px" height="250px"></img>
               <div class= "project2">Project 2</div>
@@ -61,7 +80,7 @@
   <footer class="footer">
     <p>Copyright &copy; </p>
   </footer>
-
+<script src="script.js"></script>
 </body>
 
 </html>
