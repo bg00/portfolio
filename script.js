@@ -9,13 +9,13 @@
 // }
 
 // function toggleNavLocation(screensize) {
- // if (screensize > 999) {
- //   if (mainNav.parentElement.id === "h1") {
- //     branding.appendChild(body);
- //   }
- // } else {
- //   if (mainNav.parentElement.id === "div") {
- //     tieredHeader.appendChild(body);
- //   }
- //  }
+// if (screensize > 999) {
+//   if (mainNav.parentElement.id === "h1") {
+//     branding.appendChild(body);
+//   }
+// } else {
+//   if (mainNav.parentElement.id === "div") {
+//     tieredHeader.appendChild(body);
+//   }
+//  }
 // }
